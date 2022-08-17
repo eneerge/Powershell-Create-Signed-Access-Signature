@@ -8,6 +8,8 @@ $signedExpiry = "2040-08-14T05:00:00Z"
 $canonicalizedResource = "/file/myshare/pictures"
 $signedIdentifier = ""
 $signedIP = ""
+
+# When specifying a protocol, the SAS breaks. The default protocol is HTTPS only which is the only thing I need to use, so it works in my situation when leaving this empty.
 $signedProtocol = ""
 $signedVersion = "2021-04-10"
 $signedResource = "s"
